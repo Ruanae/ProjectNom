@@ -13,16 +13,6 @@
 			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
 		</repository>
 	</repositories>
-	<plugin>
-   		<groupId>org.codehaus.mojo</groupId>
-   			<artifactId>findbugs-maven-plugin</artifactId>
-   			<version>1.2</version>
-   			<configuration>
-      			<findbugsXmlOutput>true</findbugsXmlOutput>
-      			<findbugsXmlWithMessages>true</findbugsXmlWithMessages>
-      			<xmlOutput>true</xmlOutput>
-      	   </configuration>
-</plugin>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
